@@ -27,11 +27,12 @@ DevOS adalah framework untuk membangun workspace developer yang konsisten, terdo
 
 ## Architecture Overview
 
-DevOS is organized as a documentation-led framework. `core/` holds policies, standards, and manifesto. `profiles/` defines workstation profiles. `prompts/` contains agent-specific prompt layers. `templates/` provides reusable scaffolds. `scripts/` and `tests/` stay separate so automation and validation remain clear.
+DevOS is organized as a documentation-led framework. `core/` holds policies, standards, and manifesto. `core/standards/` holds standards. `profiles/` defines workstation profiles. `prompts/` contains agent-specific prompt layers. `templates/` provides reusable scaffolds. `scripts/` and `tests/` stay separate so automation and validation remain clear.
 
 ## Project Structure
 
 - `core/` policy, standards, manifesto
+- `core/standards/` standards
 - `profiles/` workstation profiles
 - `prompts/` universal and agent-specific prompts
 - `templates/` reusable blueprints
